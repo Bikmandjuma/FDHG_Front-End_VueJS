@@ -1,5 +1,6 @@
 <template>
-<v-row>
+  <v-main>
+      <v-row>
           <v-col cols="12" md="4" sm="4"></v-col>
           <v-col cols="12" md="4" sm="4">
 
@@ -82,12 +83,13 @@
           </v-col>
           <v-col cols="12" md="4" sm="4"></v-col>
         </v-row>
-</tamplate>
+    </v-main>
+</template>
 
 <script>
 import axios from 'axios'
 export default {
-  name: 'Login',
+  name: 'HelloWorld',
 
   data(){
     return {
