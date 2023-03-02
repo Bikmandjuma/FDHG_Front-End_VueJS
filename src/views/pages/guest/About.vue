@@ -25,7 +25,6 @@ export default {
     PagesGuestComponentsAppBar: () => import('./components/AppBar'),
     PagesGuestComponentsDrawer: () => import('./components/Drawer'),
     PagesGuestComponentsView: () => import('./components/View'),
-    // PagesGuestDashboard: () => import('./HomePage'),
   },
 
   data: () => ({

@@ -16,6 +16,8 @@ export default {
     PagesGuestComponentsDrawer: () => import('./components/Drawer'),
     PagesGuestComponentsView: () => import('./components/View'),
     PagesGuestDashboard: () => import('./HomePage'),
+    PagesGuestComponentsHomeContent: () => import('./components/HomeContent'),
+    // PagesGuestComponentsSearch:() =>import('./components/Search'),
   },
 
   data: () => ({

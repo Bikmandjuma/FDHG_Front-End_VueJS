@@ -13,4 +13,5 @@
 			PagesGuestComponentsFooter: () =>import('./Footer'),
 		}
 	}
+	
 </script>

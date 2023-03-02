@@ -9,15 +9,15 @@
       <v-img :src="image_bg1" alt="bg-img1"></v-img>
     </v-carousel-item>
 
-    <v-carousel-item>
+ <!--    <v-carousel-item>
       <v-img :src="image_bg2" alt="bg-img2"></v-img>
-    </v-carousel-item>
+    </v-carousel-item> -->
 
     <v-carousel-item>
       <v-img :src="image_bg3" alt="bg-img3"></v-img>
     </v-carousel-item>
-
   </v-carousel>
+  <!-- <pages-guest-components-homecomponents /> -->
 </template>
 
 <script>
@@ -33,6 +33,12 @@ import image_bg3 from '@/assets/homepage/hero_bg_3.jpg'
               image_bg3,
           }
       },
+
+      components:{
+          PagesGuestComponentsHomeContent: () =>import('./components/HomeContent'),
+      },
+
+
   }
 
 </script>
